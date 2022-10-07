@@ -45,7 +45,6 @@ img {
 /* Header */
 
 .page-header {    
-    height: 80px;
     padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
@@ -238,6 +237,7 @@ img {
 
 .container.ocupation {
     padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .section-title {
@@ -280,8 +280,7 @@ img {
 }
 
 .card-comand {
-    width: 270px;
-    margin-right: 30px;
+    width: 270px;    
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -289,10 +288,14 @@ img {
     background: #ffffff;
 }
 
+.flax-container-comand.list li + li {
+    margin-left: 30px;
+}
+
 .meta-comand {
     text-align: center;
     padding: 30px 0;
-   }
+}
 
 .section-name {
     margin: 0;
@@ -314,11 +317,10 @@ img {
 
 /* Footer */
 
-.container {
-    width: 1200px;
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin: 0 auto;
+
 }
 
 .logo-footer {
@@ -360,6 +362,12 @@ img {
 /* Portfolio */
 
 /* Work-nav */
+
+.work-nav {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 
 .work-nav.list {
     padding: 0;
