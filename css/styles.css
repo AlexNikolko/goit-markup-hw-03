@@ -50,11 +50,6 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
-.container.hd {
-    padding: 0 15px;
-}
-
-
 .hd {
     display: flex;
     align-items: center;
@@ -235,8 +230,7 @@ img {
 
 /* Ocupation */
 
-.container.ocupation {
-    padding-top: 0;
+.section-ocupation {
     padding-bottom: 94px;
 }
 
